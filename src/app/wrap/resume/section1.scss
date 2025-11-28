@@ -1,0 +1,29 @@
+.section1{
+    width: 100%;
+    background: #12131e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0 60px 0;
+    text-align: center;
+    .profile{
+        width: 100%;
+        letter-spacing: 1px;
+        span{
+            font-size: 32px;
+            line-height: 150%;
+            strong{
+                font-size: 50px;
+            }
+        }
+        em{
+            line-height: 180%;
+            a{
+                font-size: 17px;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

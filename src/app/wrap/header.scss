@@ -15,7 +15,7 @@
             transition: all;
             transition-duration: 1s;
             &:hover{
-                color: rosybrown;
+                color: rgb(230, 153, 153);
             }
             a{
                 font-size: 50px;
@@ -29,10 +29,13 @@
             a{
                 font-size: 24px;
                 margin: 0 15px;
-                transition: all;
-                transition-duration: 0.5s;
                 &:hover{
-                    color: rosybrown;
+                    transition: all;
+                    transition-duration: 0.5s;
+                    color: rgb(230, 153, 153);
+                }
+                &.on{
+                    color: rgb(230, 153, 153);
                 }
             }
         }
@@ -52,7 +55,12 @@
             transition: all;
             transition-duration: 0.5s;
             &:hover{
-                color: rosybrown;
+                transition: all;
+                transition-duration: 0.5s;
+                color: rgb(230, 153, 153);
+            }
+            &.on{
+                color: rgb(230, 153, 153);
             }
         }
     }
