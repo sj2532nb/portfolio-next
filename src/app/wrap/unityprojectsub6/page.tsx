@@ -1,9 +1,9 @@
 import "../unityprojectsub1/subpage.scss";
 
-export default function UnityProjectSub2(){
+export default function UnityProjectSub6(){
     return(
         <div className="unity-sub">
-            <video src="/Kimchi-Run.mp4" controls/>
+            <video src="/Prototype4.mp4" controls/>
         </div>
     );
 }
