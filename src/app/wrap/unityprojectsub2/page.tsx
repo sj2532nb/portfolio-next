@@ -3,7 +3,7 @@ import "../unityprojectsub1/subpage.scss";
 export default function UnityProjectSub2(){
     return(
         <div className="unity-sub">
-            <video src="/Kimchi-Run.mp4" controls/>
+            <iframe src="https://www.youtube.com/embed/KmMNY1vHYOU" allowFullScreen />
         </div>
     );
 }

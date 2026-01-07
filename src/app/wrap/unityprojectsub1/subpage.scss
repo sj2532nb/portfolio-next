@@ -7,8 +7,9 @@
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    video{
+    iframe{
         width: 50%;
+        height: 50vh;
         margin: 60px;
     }
 }
