@@ -13,11 +13,13 @@ export default function Section2(){
                     <li>React</li>
                     <li>Node.js</li>
                     <li>Next.js</li>
+                    <li>Vercel</li>
                     <li>JavaScript</li>
                     <li>TypeScript</li>
                     <li>CSS</li>
                     <li>JSON</li>
                     <li>JSP</li>
+                    <li>Tomcat</li>
                     <li>Spring Boot</li>
                     <li>MySQL</li>
                     <li>mariaDB</li>
